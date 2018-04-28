@@ -6,7 +6,7 @@
 ## Изменения
 | Версия   |      Дата     |  Изменения |
 |----------|:-------------:|------:|
-| 1.0.0 |  2017-11-13 | Инициализация проекта |
+| dev-master |  2017-11-13 | Инициализация проекта |
 
 
 ## Зависимости
@@ -15,7 +15,7 @@
 
 ## Установка
 Используя Composer:<br/>
-Созадйте или дополните уже существующий файл зависомостей следующей конструкцией
+Созадйте или дополните уже существующий файл зависимостей следующей конструкцией
 
 ```
 {
@@ -53,7 +53,7 @@ $result = $entity->execute(<request_data_as_string>, <queue_name>);
 ...
 ```
 
-С использование фабрики
+С использованием фабрики
 ```
 <?php
 require "vendor/autoload.php";
@@ -104,7 +104,7 @@ $entity = new Sync();
 $entity->listen(<queue_name>, [new SyncTest, 'listen']);
 ```
 
-С использование фабрики
+С применением фабрики
 ```
 require "vendor/autoload.php";
 
@@ -156,7 +156,7 @@ $result = $entity->execute(<request_data_as_string>, <queue_name>);
 ...
 ```
 
-С использование фабрики
+С применением фабрики
 ```
 require "vendor/autoload.php";
 
@@ -205,7 +205,7 @@ $entity = new Async();
 $entity->listen(<queue_name>, [new AsyncTest, 'listen']);
 ```
 
-С использование фабрики
+С применением фабрики
 ```
 require "vendor/autoload.php";
 
